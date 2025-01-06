@@ -41,23 +41,29 @@ nav a {
 }
 
 .hero {
-    background-image: url('images/Forest Trees.webp');
-    background-size: cover;
-    background-position: top center;
-    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -0px;
+}
+
+h2 {
+    text-align: center; /* Center the text */
 }
 
 .services {
     padding: 2rem;
-    background-color: #f5f5f5;
+    background-color: #c1baba83;
 }
-
+<img src="images/ClearedOut.jpeg" alt="Cleared Out Image" />
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h2>Your Property, Our Priority</h2>
+        <p>Professional land clearing and property maintenance services</p>
+    </div>
+</section>
 .services h2 {
     color: var(--primary-blue);
     text-align: center;
@@ -81,8 +87,9 @@ nav a {
 .company-logo {
     max-width: 200px;
     height: auto;
-    margin: 1rem 0;
+    margin: -1rem 0 1rem 0;
     border-radius: 8px;
+    float: left;
 }
 
 .gallery {
@@ -157,6 +164,11 @@ nav a {
     color: white;
     padding: 2rem;
     text-align: center;
+    width: 100%; /* Ensure it takes full width */
+    margin: 0 auto; /* Center the div itself */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .cta-button {
