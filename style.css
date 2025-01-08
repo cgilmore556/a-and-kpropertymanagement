@@ -189,6 +189,10 @@ footer {
     padding: 1rem;
 }
 
+h1 {
+    white-space: nowrap; /* Prevent the text from wrapping to the next line */
+}
+
 @media (max-width: 768px) {
     .gallery-grid {
         grid-template-columns: 1fr;
